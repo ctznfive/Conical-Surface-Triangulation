@@ -4,7 +4,7 @@
 
 1. Uses the following command-line arguments as parameters: cone height, radius and number of segments on a circle.
 2. Prints coordinates of triangle nodes in counter-clockwise order.
-3. Prints a conical surface normal (3D vector) at each point P(i).
+3. Prints a conical surface normal (3D vector) at each point P<sub>i</sub>.
 
 A cone can be easily represented with N triangles (where N is a number of segments along its circle).
 
@@ -38,6 +38,6 @@ or
     less results.txt
 
 where
-- `h` - the cone height H
-- `r` - the radius R
-- `n` - the number of segments N
+- `h` - cone height H
+- `r` - radius R
+- `n` - number of segments N
